@@ -1,0 +1,40 @@
+#home p {
+    color: white;
+    text-align: center;
+    padding-right: 24px;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navbar ul li {
+
+    list-style: none;
+    font-size: 1rem;
+}
+
+
+#navbar ul li a {
+    color: white;
+    display: block;
+    padding:0px 18px;
+    border-radius: 22px;
+    text-decoration: none;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 150px;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+}
+#info{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: 100px;
+    background-color: black;
+    
+}
